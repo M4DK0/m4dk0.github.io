@@ -1,33 +1,8 @@
-{
-  "name": "الخِتمة المتقنة",
-  "short_name": "الخِتمة المتقنة",
-  "description": "تثبيت ومراجعة الحفظ — الحصون الخمسة",
-  "start_url": "./index.html",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#1c1712",
-  "theme_color": "#1c1712",
-  "dir": "rtl",
-  "lang": "ar",
-  "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-512-maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ]
-}
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.m4dk0.twa",
+        "sha256_cert_fingerprints": ["51:7C:E1:D1:7E:60:27:BB:F2:CB:A3:D9:B0:B7:DE:ED:A5:12:49:73:84:94:CA:96:B8:E6:2C:74:FC:A9:67:18"]
+      }
+    }]
